@@ -10,7 +10,7 @@
   <li>Operating System</li>
   <li>X-86</li>
   <li>ARM</li>
-  <li>RICS V</li>
+  <li>RISC V</li>
   <li>CISC</li>
   <li>CLI</li>
   <li>Linux</li>
