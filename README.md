@@ -15,11 +15,13 @@
   <li>CLI</li>
   <li>Linux</li>
   <li>Ubuntu</li>
+  <li>Terminal</li>
   <li>GUI</li>
   <li>Cloud Computing</li>
   <li>AWS</li>
   <li>Open Source</li>
   <li>Kernel</li>
   <li>AI</li>
+  <li>Directory / folder</li>
 </ol>
 
