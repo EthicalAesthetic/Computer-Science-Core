@@ -1,5 +1,5 @@
 
-# Computer Science Core Concepts (Advanced)
+# Computer Science Core Concepts 
 
 This repository provides an advanced overview of core computer science concepts, including in-depth explanations, technical diagrams, and references for further research. It is suitable for advanced learners, interview preparation, and professionals seeking a deeper understanding.
 
@@ -33,7 +33,7 @@ This repository provides an advanced overview of core computer science concepts,
 
 ---
 
-## 1. Hardware
+## 1. Hardware 
 Hardware refers to the physical components of a computer system, including the CPU, RAM, motherboard, storage devices, buses, and peripheral devices. Advanced topics include:
 - **Motherboard architecture** (chipsets, buses, expansion slots)
 - **CPU sockets and compatibility**
