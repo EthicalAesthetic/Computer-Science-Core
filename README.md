@@ -287,5 +287,5 @@ A directory (folder) is an organizational unit in a file system. Advanced direct
 ---
 
 ---
-
+ 
 *This document is intended for advanced educational purposes. Contributions and suggestions for further depth are welcome!*
