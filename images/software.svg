@@ -1,0 +1,11 @@
+<svg width="350" height="180" xmlns="http://www.w3.org/2000/svg">
+  <rect x="40" y="40" width="270" height="100" fill="#e0e0e0" stroke="#333" stroke-width="3"/>
+  <rect x="60" y="60" width="60" height="60" fill="#b0c4de" stroke="#333" stroke-width="2"/>
+  <text x="90" y="95" font-size="16" text-anchor="middle" fill="#333">App</text>
+  <rect x="150" y="60" width="60" height="60" fill="#ffe4b5" stroke="#333" stroke-width="2"/>
+  <text x="180" y="95" font-size="16" text-anchor="middle" fill="#333">OS</text>
+  <rect x="240" y="60" width="60" height="60" fill="#98fb98" stroke="#333" stroke-width="2"/>
+  <text x="270" y="95" font-size="16" text-anchor="middle" fill="#333">Dev</text>
+  <line x1="120" y1="90" x2="150" y2="90" stroke="#333" stroke-width="3"/>
+  <line x1="210" y1="90" x2="240" y2="90" stroke="#333" stroke-width="3"/>
+</svg>

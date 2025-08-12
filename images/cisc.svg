@@ -1,0 +1,5 @@
+<svg width="350" height="180" xmlns="http://www.w3.org/2000/svg">
+  <rect x="100" y="60" width="150" height="60" fill="#ffe4e1" stroke="#333" stroke-width="3"/>
+  <text x="175" y="90" font-size="24" text-anchor="middle" fill="#333">CISC</text>
+  <text x="175" y="120" font-size="12" text-anchor="middle" fill="#333">Complex ISA</text>
+</svg>

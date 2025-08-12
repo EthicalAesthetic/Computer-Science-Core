@@ -1,0 +1,5 @@
+<svg width="350" height="180" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="175" cy="90" rx="70" ry="40" fill="#fff" stroke="#333" stroke-width="3"/>
+  <text x="175" y="100" font-size="32" text-anchor="middle" fill="#333">🐧</text>
+  <text x="175" y="150" font-size="14" text-anchor="middle" fill="#333">Open Source, Kernel, Tools</text>
+</svg>

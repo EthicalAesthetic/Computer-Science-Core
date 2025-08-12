@@ -1,0 +1,10 @@
+<svg width="350" height="180" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="175" cy="90" rx="120" ry="50" fill="#f5deb3" stroke="#333" stroke-width="3"/>
+  <rect x="100" y="70" width="40" height="30" fill="#fff" stroke="#333"/>
+  <text x="120" y="90" font-size="12" text-anchor="middle" fill="#333">HDD</text>
+  <rect x="160" y="70" width="40" height="30" fill="#fff" stroke="#333"/>
+  <text x="180" y="90" font-size="12" text-anchor="middle" fill="#333">SSD</text>
+  <rect x="220" y="70" width="40" height="30" fill="#fff" stroke="#333"/>
+  <text x="240" y="90" font-size="12" text-anchor="middle" fill="#333">NVMe</text>
+  <text x="175" y="150" font-size="14" text-anchor="middle" fill="#333">Storage Technologies</text>
+</svg>

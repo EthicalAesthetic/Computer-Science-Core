@@ -1,0 +1,5 @@
+<svg width="350" height="180" xmlns="http://www.w3.org/2000/svg">
+  <rect x="40" y="60" width="270" height="60" fill="#333" stroke="#222" stroke-width="3"/>
+  <text x="60" y="100" font-size="24" fill="#fff">$</text>
+  <text x="175" y="150" font-size="14" text-anchor="middle" fill="#fff">Multiplexers, SSH, Unicode</text>
+</svg>
