@@ -6,34 +6,37 @@ This repository provides an advanced overview of core computer science concepts,
 ---
 
 ## Table of Contents
+1. [Hardware](#1-hardware)
+2. [Software](#2-software)
+3. [Server](#3-server)
+4. [Computation / Processor / CPU](#4-computation--processor--cpu)
+5. [RAM](#5-ram)
+6. [ROM / Storage](#6-rom--storage)
+7. [Network](#7-network)
+8. [Operating System](#8-operating-system)
+9. [X-86](#9-x-86)
+10. [ARM](#10-arm)
+11. [RISC V](#11-risc-v)
+12. [CISC](#12-cisc)
+13. [CLI](#13-cli)
+14. [Linux](#14-linux)
+15. [Ubuntu](#15-ubuntu)
+16. [Terminal](#16-terminal)
+17. [GUI](#17-gui)
+18. [Cloud Computing](#18-cloud-computing)
+19. [AWS](#19-aws)
+20. [Open Source](#20-open-source)
+21. [Kernel](#21-kernel)
+22. [AI](#22-ai)
+23. [Directory / Folder](#23-directory--folder)
 
-1. [Hardware](#hardware)
-2. [Software](#software)
-3. [Server](#server)
-4. [Computation / Processor / CPU](#computation--processor--cpu)
-5. [RAM](#ram)
-6. [ROM / Storage](#rom--storage)
-7. [Network](#network)
-8. [Operating System](#operating-system)
-9. [X-86](#x-86)
-10. [ARM](#arm)
-11. [RISC V](#risc-v)
-12. [CISC](#cisc)
-13. [CLI](#cli)
-14. [Linux](#linux)
-15. [Ubuntu](#ubuntu)
-16. [Terminal](#terminal)
-17. [GUI](#gui)
-18. [Cloud Computing](#cloud-computing)
-19. [AWS](#aws)
-20. [Open Source](#open-source)
-21. [Kernel](#kernel)
-22. [AI](#ai)
-23. [Directory / Folder](#directory--folder)
-
+[Algorithms](#algorithms)<br>
+[Mathematical Spaces](#mathematical-spaces)<br>
+[NP-Hard Problems](#np-hard-problems)  <br>
 ---
 
-## 1. Hardware 
+# 1. Hardware 
+
 Hardware refers to the physical components of a computer system, including the CPU, RAM, motherboard, storage devices, buses, and peripheral devices. Advanced topics include:
 - **Motherboard architecture** (chipsets, buses, expansion slots)
 - **CPU sockets and compatibility**
@@ -42,7 +45,7 @@ Hardware refers to the physical components of a computer system, including the C
 
 <img src="images/hardware.svg" alt="Hardware Diagram" width="350"/>
 
-## 2. Software
+# 2. Software
 Software includes system software (operating systems, device drivers), application software, and development tools. Advanced concepts:
 - **Virtualization and containers**
 - **Software architecture patterns** (MVC, microservices)
@@ -51,7 +54,7 @@ Software includes system software (operating systems, device drivers), applicati
 
 <img src="images/software.svg" alt="Software Illustration" width="350"/>
 
-## 3. Server
+# 3. Server
 A server is a system that provides resources, data, or services to clients over a network. Advanced server topics:
 - **Load balancing and clustering**
 - **High availability and failover**
@@ -60,7 +63,7 @@ A server is a system that provides resources, data, or services to clients over 
 
 <img src="images/server.svg" alt="Server Icon" width="350"/>
 
-## 4. Computation / Processor / CPU
+# 4. Computation / Processor / CPU
 The CPU (Central Processing Unit) is responsible for executing instructions and performing calculations. Advanced CPU topics:
 - **Pipelining, superscalar, and out-of-order execution**
 - **Branch prediction and speculative execution**
@@ -70,7 +73,7 @@ The CPU (Central Processing Unit) is responsible for executing instructions and 
 
 <img src="images/cpu.svg" alt="CPU Diagram" width="350"/>
 
-## 5. RAM
+# 5. RAM
 Random Access Memory (RAM) is volatile memory used for temporary data storage. Advanced RAM topics:
 - **DDR generations (DDR3, DDR4, DDR5)**
 - **ECC (Error-Correcting Code) RAM**
@@ -79,7 +82,7 @@ Random Access Memory (RAM) is volatile memory used for temporary data storage. A
 
 <img src="images/ram.svg" alt="RAM Module" width="350"/>
 
-## 6. ROM / Storage
+# 6. ROM / Storage
 ROM (Read-Only Memory) stores firmware, while storage devices (HDD, SSD, NVMe, SAN) provide persistent data storage. Advanced storage topics:
 - **RAID levels and redundancy**
 - **File systems (NTFS, ext4, ZFS, Btrfs)**
@@ -88,7 +91,7 @@ ROM (Read-Only Memory) stores firmware, while storage devices (HDD, SSD, NVMe, S
 
 <img src="images/storage.svg" alt="Storage Devices" width="350"/>
 
-## 7. Network
+# 7. Network
 Networks connect computers and devices to share resources and data. Advanced networking topics:
 - **OSI and TCP/IP models (detailed layer functions)**
 - **Subnetting, CIDR, and VLANs**
@@ -120,7 +123,7 @@ Networks connect computers and devices to share resources and data. Advanced net
 - **Packet**: Unit of data transmitted over a network
 - **OSI Layers**: Open Systems Interconnection model, 7 layers for network communication
 
-## 8. Operating System
+# 8. Operating System
 An operating system (OS) manages hardware, software resources, and provides services for applications. Advanced OS topics:
 - **Kernel architectures (monolithic, microkernel, hybrid)**
 - **Process scheduling and concurrency**
@@ -130,7 +133,7 @@ An operating system (OS) manages hardware, software resources, and provides serv
 
 <img src="images/os.svg" alt="Operating System Logo" width="350"/>
 
-## 9. X-86
+# 9. X-86
 x86 is a family of CISC instruction set architectures based on the Intel 8086 CPU. Advanced x86 topics:
 - **Protected mode and real mode**
 - **SIMD extensions (MMX, SSE, AVX)**
@@ -139,7 +142,7 @@ x86 is a family of CISC instruction set architectures based on the Intel 8086 CP
 
 <img src="images/x86.svg" alt="x86 Architecture" width="350"/>
 
-## 10. ARM
+# 10. ARM
 ARM is a RISC architecture widely used in mobile, embedded, and increasingly server environments. Advanced ARM topics:
 - **ARMv8, ARMv9, and TrustZone**
 - **Big.LITTLE architecture**
@@ -148,7 +151,7 @@ ARM is a RISC architecture widely used in mobile, embedded, and increasingly ser
 
 <img src="images/arm.svg" alt="ARM Architecture" width="350"/>
 
-## 11. RISC V
+# 11. RISC V
 RISC-V is an open standard RISC instruction set architecture. Advanced RISC-V topics:
 - **Custom instruction extensions**
 - **Open hardware and ecosystem**
@@ -157,7 +160,7 @@ RISC-V is an open standard RISC instruction set architecture. Advanced RISC-V to
 
 <img src="images/riscv.svg" alt="RISC V Logo" width="350"/>
 
-## 12. CISC
+# 12. CISC
 CISC (Complex Instruction Set Computing) CPUs have many specialized instructions. Advanced CISC topics:
 - **Microprogramming**
 - **Instruction decoding and execution**
@@ -165,7 +168,7 @@ CISC (Complex Instruction Set Computing) CPUs have many specialized instructions
 
 <img src="images/cisc.svg" alt="CISC Diagram" width="350"/>
 
-## 13. CLI
+# 13. CLI
 The Command Line Interface (CLI) is a text-based interface for interacting with computers. Advanced CLI topics:
 - **Shell scripting (Bash, PowerShell, Zsh)**
 - **Pipelines, redirection, and process control**
@@ -174,7 +177,7 @@ The Command Line Interface (CLI) is a text-based interface for interacting with 
 
 <img src="images/cli.svg" alt="CLI Example" width="350"/>
 
-## 14. Linux
+# 14. Linux
 Linux is an open-source family of Unix-like operating systems. Advanced Linux topics:
 - **Kernel compilation and customization**
 - **Systemd and init systems**
@@ -183,7 +186,7 @@ Linux is an open-source family of Unix-like operating systems. Advanced Linux to
 
 <img src="images/linux.svg" alt="Linux Logo" width="350"/>
 
-## 15. Ubuntu
+# 15. Ubuntu
 Ubuntu is a popular Linux distribution based on Debian. Advanced Ubuntu topics:
 - **LTS vs non-LTS releases**
 - **Snap and Flatpak packaging**
@@ -192,7 +195,7 @@ Ubuntu is a popular Linux distribution based on Debian. Advanced Ubuntu topics:
 
 <img src="images/ubuntu.svg" alt="Ubuntu Logo" width="350"/>
 
-## 16. Terminal
+# 16. Terminal
 A terminal is a program that provides a CLI for interacting with the OS. Advanced terminal topics:
 - **Terminal multiplexers (tmux, screen)**
 - **Unicode and encoding support**
@@ -201,7 +204,7 @@ A terminal is a program that provides a CLI for interacting with the OS. Advance
 
 <img src="images/terminal.svg" alt="Terminal Window" width="350"/>
 
-## 17. GUI
+# 17. GUI
 The Graphical User Interface (GUI) allows users to interact with devices using graphical elements. Advanced GUI topics:
 - **GUI frameworks (Qt, GTK, Electron, WPF)**
 - **Accessibility and internationalization**
@@ -210,7 +213,7 @@ The Graphical User Interface (GUI) allows users to interact with devices using g
 
 <img src="images/gui.svg" alt="GUI Example" width="350"/>
 
-## 18. Cloud Computing
+# 18. Cloud Computing
 Cloud computing delivers computing services over the internet. Advanced cloud topics:
 - **IaaS, PaaS, SaaS models**
 - **Cloud orchestration (Kubernetes, Docker Swarm)**
@@ -219,7 +222,7 @@ Cloud computing delivers computing services over the internet. Advanced cloud to
 
 <img src="images/cloud.svg" alt="Cloud Computing Concept" width="350"/>
 
-## 19. AWS
+# 19. AWS
 Amazon Web Services (AWS) is a leading cloud platform. Advanced AWS topics:
 - **EC2, S3, Lambda, and advanced services**
 - **Infrastructure as Code (CloudFormation, Terraform)**
@@ -228,7 +231,7 @@ Amazon Web Services (AWS) is a leading cloud platform. Advanced AWS topics:
 
 <img src="images/aws.svg" alt="AWS Logo" width="350"/>
 
-## 20. Open Source
+# 20. Open Source
 Open source software allows anyone to inspect, modify, and enhance the code. Advanced open source topics:
 - **Licensing (GPL, MIT, Apache, BSD)**
 - **Community governance and contribution models**
@@ -236,7 +239,7 @@ Open source software allows anyone to inspect, modify, and enhance the code. Adv
 
 <img src="images/opensource.svg" alt="Open Source Symbol" width="350"/>
 
-## 21. Kernel
+# 21. Kernel
 The kernel is the core of an OS, managing resources and hardware-software communication. Advanced kernel topics:
 - **Kernel modules and drivers**
 - **Process and thread management**
@@ -245,7 +248,7 @@ The kernel is the core of an OS, managing resources and hardware-software commun
 
 <img src="images/kernel.svg" alt="Kernel Diagram" width="350"/>
 
-## 22. AI
+# 22. AI
 Artificial Intelligence (AI) simulates human intelligence in machines. Advanced AI topics:
 - **Machine learning (supervised, unsupervised, reinforcement)**
 - **Deep learning (neural networks, CNNs, RNNs, transformers)**
@@ -254,7 +257,7 @@ Artificial Intelligence (AI) simulates human intelligence in machines. Advanced 
 
 <img src="images/ai.svg" alt="AI Concept" width="350"/>
 
-## 23. Directory / Folder
+# 23. Directory / Folder
 A directory (folder) is an organizational unit in a file system. Advanced directory topics:
 - **File system hierarchies (FHS, Windows, macOS)**
 - **Permissions and ACLs**
@@ -268,7 +271,7 @@ A directory (folder) is an organizational unit in a file system. Advanced direct
 - TensorFlow: An open-source platform for machine learning.
 - TPU (Tensor Processing Unit): A hardware accelerator designed by Google to speed up machine learning workloads, especially with TensorFlow.
 
-## Algorithms
+# Algorithms
    1. Searching
       - Linear Search 
       - Binary Search (Reduce time and space complexity) (Think of worst case scenarios)
@@ -308,7 +311,7 @@ Fast Fourier Transform
    - Audio Processing (Librosa)
    - Video Processing (MoviePy)
    
-## Mathematical Spaces
+# Mathematical Spaces
 
 The following are important types of mathematical spaces used in advanced mathematics and computer science:
 
@@ -325,7 +328,7 @@ Vector space
 2^35 = 2^5 * 2^30 = 32 GB
 
  
-## NP-Hard Problems
+# NP-Hard Problems
 
 NP-hard problems are computational problems for which no efficient solution algorithm is known; solving any NP-hard problem efficiently would solve all problems in NP efficiently. Examples include the Travelling Salesman Problem, Knapsack Problem, and Boolean Satisfiability Problem (SAT).
 
@@ -342,8 +345,7 @@ NP-hard problems are computational problems for which no efficient solution algo
     - OSI Model (7 layers)
     - TCP/IP Model (4 layers)
     - Protocols (HTTP, FTP, SMTP, etc.) 
-
-## 4. system design
+4. system design
    - Scalability (Horizontal, Vertical)
    - Load Balancing (Round Robin, Least Connections, IP Hash)
    - Caching (In-Memory, Distributed)
@@ -357,7 +359,7 @@ NP-hard problems are computational problems for which no efficient solution algo
 5. ML (Prolog)40 years ago (fk)
 6. Data Science
 7. CSA
-### GOAL
+## GOAL
 Padhai Sahi Direction mai <br>
 Application ke baare mai sochnna hai<br>
 LEARN ABOUT MEMORY FROM C language
@@ -370,13 +372,6 @@ LEARN ABOUT MEMORY FROM C language
 6. Scheduling(in DBMS)
 7. Scoping (Static and Dynamic)
 8. What's now after Ceasae Cipher (security)(man in the middle)
-
-
-
-## Further Topics
-
-- **DNS** (Domain Name System): Recursive and authoritative DNS, DNSSEC, zone transfers, caching, and attacks (DNS spoofing, cache poisoning)
-- **VPN** (Virtual Private Network): Tunneling protocols (OpenVPN, IPSec, WireGuard), split tunneling, site-to-site vs remote access, security considerations
 
 
 ## References & Further Reading
@@ -395,5 +390,3 @@ LEARN ABOUT MEMORY FROM C language
 ---
 
 ---
- 
-*This document is intended for advanced educational purposes. Contributions and suggestions for further depth are welcome!*
