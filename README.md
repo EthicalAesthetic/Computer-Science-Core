@@ -73,6 +73,27 @@ The CPU (Central Processing Unit) is responsible for executing instructions and 
 
 <img src="images/cpu.svg" alt="CPU Diagram" width="350"/>
 
+## Processing Units (CPU, GPU, TPU)
+
+### Core Differences
+- CPU (Central Processing Unit):
+   - Compute Primitive: Scalar (single value).
+   - Operation: Parallelized scalar multiplication.
+   - Memory Management: Implicitly managed (L1, L2, L3 caches).
+- GPU (Graphics Processing Unit):
+   - Compute Primitive: Vector (1D array).
+   - Operation: Parallelized vector multiplication.
+   - Memory Management: Mixed (L1, L2 caches, Shared Memory).
+- TPU (Tensor Processing Unit):
+   - Compute Primitive: Tensor/Matrix (2D array).
+   - Operation: Parallelized matrix multiplication.
+   - Memory Management: Explicitly managed (Activation Buffer, Register File).
+- Other Processing Hardware
+   - APU (Accelerated Processing Unit): CPU and GPU on a single chip.
+   - FPGA (Field-Programmable Gate Array): Reconfigurable integrated circuit.
+   - AI Accelerators: Specialized hardware for AI workloads.
+RISC-V: An open-source instruction set architecture (ISA).
+
 # 5. RAM
 Random Access Memory (RAM) is volatile memory used for temporary data storage. Advanced RAM topics:
 - **DDR generations (DDR3, DDR4, DDR5)**
