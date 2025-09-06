@@ -10,6 +10,7 @@ This repository provides an advanced overview of core computer science concepts,
 2. [Software](#2-software)
 3. [Server](#3-server)
 4. [Computation / Processor / CPU](#4-computation--processor--cpu)
+   - [Processing Units (CPU, GPU, TPU)](#processing-units-cpu-gpu-tpu)
 5. [RAM](#5-ram)
 6. [ROM / Storage](#6-rom--storage)
 7. [Network](#7-network)
